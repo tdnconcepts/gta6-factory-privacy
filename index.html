@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="no-referrer"><title>GTA Trend Radar — Client terms and privacy</title><style>body{max-width:58rem;margin:2rem auto;padding:0 1rem;font:1rem/1.6 system-ui}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit}</style></head><body><p>Owner-configured publication candidate; not a source clearance or execution approval.</p><main><pre># GTA Trend Radar — private research CLI terms and privacy
+Policy version: gta6f.r2b-client-policy/1.1
+Effective only after owner configuration and explicit operator acceptance.
+
+Client owner: tdnconcepts
+Privacy/deletion contact: <a href="mailto:gta6factory.contact@gmail.com">gta6factory.contact@gmail.com</a>
+Published notice: <a href="https://tdnconcepts.github.io/gta6-factory-privacy/">https://tdnconcepts.github.io/gta6-factory-privacy/</a>
+
+## Terms of use
+This private local Windows Python CLI uses YouTube API Services. By using the
+client, you agree to be bound by the YouTube Terms of Service:
+<a href="https://www.youtube.com/t/terms">https://www.youtube.com/t/terms</a>
+The client owner is responsible for the YouTube API Services agreement:
+<a href="https://developers.google.com/youtube/terms/api-services-terms-of-service">https://developers.google.com/youtube/terms/api-services-terms-of-service</a>
+and Developer Policies:
+<a href="https://developers.google.com/youtube/terms/developer-policies">https://developers.google.com/youtube/terms/developer-policies</a>
+Google&#x27;s Privacy Policy is available at:
+<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>
+
+Access is limited to two owner-designated operators for a one-time internal
+metadata research pilot. No endorsement or partnership with YouTube, Google,
+GTA6 Scoop, Rockstar or the video creator is claimed. Accepting this notice
+neither grants source permission nor authorizes network access. Each source
+still requires independent policy clearance and the exact pilot requires a
+current one-time execution approval. Do not use the client before those checks.
+
+## Data accessed and purpose
+The fixed pilot reads a publisher-advertised GTA6 Scoop RSS feed and public
+YouTube Data API v3 channel/video metadata. It checks a channel handle against
+an expected ID, then requests one page of at most 20 video references.
+Selected fields include public titles, original source URLs, publication dates,
+author/channel names and provider IDs. Local provenance includes request and
+retrieval times, first observation, response hashes, errors and request/byte
+accounting. RSS may contain article text or image references in the received
+body; these are ignored and no linked article, image or media is fetched.
+The purpose is to evaluate whether references can support later independent
+GTA editorial research. Live data stays unranked, factually unverified and
+separate from synthetic Viral Radar scoring. No popularity, trend velocity,
+creator performance, user profiling or content categories are inferred.
+No creator script, image, audio or video may be reproduced under this notice.
+
+## Credentials, network and sharing
+There is no OAuth, YouTube login/password collection, private account access,
+write/upload operation or embedded player. A dedicated API key is read only
+from the local process environment after this notice is accepted and approval
+checks pass. It is transmitted to Google&#x27;s approved API host in an HTTPS
+request header, never intentionally to the RSS publisher, files or logs.
+Google receives the API requests, project/key identification and connection
+information such as the public IP address; the RSS publisher receives its
+request and connection information. Their processing is governed by their own
+policies. There are no tracking cookies, advertising, analytics beacons,
+automatic browser opens, remote scripts, image/video downloads or background
+collection. Local files are accessible to the two designated operators and
+people/processes with access to the Windows account or backups; protect those
+files and keep them out of shared or synced locations. No API data is sent to
+Factory production, external AI services or other recipients by this client.
+
+## Local storage and retention
+Response bodies are processed in memory only, not deliberately written to
+disk. Process exit does not guarantee secure erasure of RAM, swap or OS dumps.
+Selected metadata, evaluation files, request logs, errors and supervision data
+are kept in a dedicated local pilot-data folder for at most 72 hours from pilot
+start, including any copies or exports.
+Approval/retention manifests and the acceptance receipt are retained for at
+most seven days (168 hours) from approval issuance. The acceptance receipt
+records only operator identity, acceptance time and policy version/hash.
+It does not record input text, device identifiers or credentials.
+The designated retention and deletion owner must delete artifacts within those
+limits; there is no automatic deletion scheduler or automatic data refresh.
+A source-data-free empty directory remains to prevent accidental run replay.
+This owner/contact configuration is separate from collected API data and is
+maintained while the client and its published notice remain in use.
+
+## Deletion, questions and withdrawal
+Either operator can contact the client owner above for privacy questions,
+withdraw further use, or request earlier deletion of local pilot data.
+The owner must act promptly and no later than the existing retention deadlines
+(or seven days for a user deletion request, whichever is earlier), including
+copies/backups. Contact <a href="mailto:gta6factory.contact@gmail.com">gta6factory.contact@gmail.com</a> to request deletion or
+ask how to inspect and remove local pilot files. Approval records must also be
+removed by their seven-day deadline. These operations
+never delete data on YouTube or change Factory production data.
+No OAuth access exists to revoke. The project owner can revoke the API key in
+Google Cloud and remove it from the PowerShell session. API-key revocation is
+separate from deletion of retained local files.
+
+## Changes and publication
+The current notice is available through the offline policy viewer and at the
+published HTTPS URL above. Review it before each run; changed text or owner
+configuration changes the acceptance hash and requires fresh acceptance.
+There is no remembered consent or unattended acceptance flag. Local acceptance
+is an operator statement, not a Google audit, publisher licence or signature.
+Any future user, source, purpose, analytics or collection expansion requires
+separate review and, where required, renewed agreement and provider permission.
+</pre></main><footer>Policy SHA-256: 556e0db07f55905964c2d925824fbba4dbd4891c66125e2705ddfa8918b50d31</footer></body></html>
